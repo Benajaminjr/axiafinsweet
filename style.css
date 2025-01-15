@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 0 100px 0 100px;
+    font-family: "Poppins", serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact {
+    display: flex;
+    gap: 10px;
+}
+
+nav {
+    position: relative;
+    margin-left: 500px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    align-items: center;
+}
+
+.dash {
+    background-color: black;
+    height: 20px;
+    width: 1px;
+}
+
+.first-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-right: 150px; */
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.btn {
+  background: #ffae4c;
+  background-image: -webkit-linear-gradient(top, #ffae4c, #ff6333);
+  background-image: -moz-linear-gradient(top, #ffae4c, #ff6333);
+  background-image: -ms-linear-gradient(top, #ffae4c, #ff6333);
+  background-image: -o-linear-gradient(top, #ffae4c, #ff6333);
+  background-image: linear-gradient(to bottom, #ffae4c, #ff6333);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: "Poppins", serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn:hover {
+  background: #ff6333;
+  background-image: -webkit-linear-gradient(top, #ff6333, #ffcb3b);
+  background-image: -moz-linear-gradient(top, #ff6333, #ffcb3b);
+  background-image: -ms-linear-gradient(top, #ff6333, #ffcb3b);
+  background-image: -o-linear-gradient(top, #ff6333, #ffcb3b);
+  background-image: linear-gradient(to bottom, #ff6333, #ffcb3b);
+  text-decoration: none;
+}
+
+.open {
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.open-text {
+    color: #787878;
+}
+
+.second-section {
+    background-color: #E2E6E9;
+    margin-top: 30px;
+}
+
+.service-1 {
+    display: flex;
+}
+
