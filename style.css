@@ -15,6 +15,11 @@ header {
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
+    /* width: 80%; */
+}
+
+.header {
+    position: sticky;
 }
 
 .contact {
@@ -85,6 +90,10 @@ h1 {
   text-decoration: none;
 }
 
+a:hover {
+    color: #ff6333;
+}
+
 .open {
     display: flex;
     margin-top: 30px;
@@ -98,9 +107,70 @@ h1 {
 .second-section {
     background-color: #E2E6E9;
     margin-top: 30px;
-}
-
-.service-1 {
     display: flex;
+    max-width: 100%;
+    padding-left: 20px;
 }
 
+.service-1 img {
+    background-size: 10px;
+}
+
+h4 {
+    font-size: 50px;
+}
+
+input {
+    display: flex;
+    padding: 15px;
+    border: #787878 solid 2px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left: 0;
+    width: 500px;
+
+}
+
+.service-section {
+    width: 50%;
+
+}
+
+.form-section {
+    width: 50%;
+    font-family: "Poppins", serif;
+    padding: 10px;
+}
+
+.form-section button {
+    margin-top: 30px;
+}
+
+.know-more {
+    display: flex;
+    color: black;
+    margin-top: 10px;
+    gap: 20px;
+    font-weight: 600;
+}
+
+
+.third-section {
+    display: flex;
+    max-width: 100%;
+}
+
+.third-section-1 {
+    width: 50%;
+}
+
+.third-section-2 {
+    width: 50%;
+    margin: 20px;
+}
+
+.third-section-2-1 {
+    display: flex;
+    background-size: 20px;
+    gap: 20px;   
+}
