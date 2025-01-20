@@ -6,7 +6,6 @@
 
 body {
     width: 100%;
-    padding: 0 100px 0 100px;
     font-family: "Poppins", serif;
 }
 
@@ -16,6 +15,7 @@ header {
     justify-content: space-between;
     margin-top: 20px;
     /* width: 80%; */
+    padding: 0 100px 0 100px;
 }
 
 .header {
@@ -50,12 +50,18 @@ a {
     width: 1px;
 }
 
+.first-section-main {
+    padding: 0 100px 0 100px;
+}
+
 .first-section {
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* padding-right: 150px; */
+    /* padding: 0 100px 0 100px; */
+
 }
 
 h1 {
@@ -98,6 +104,7 @@ a:hover {
     display: flex;
     margin-top: 30px;
     gap: 10px;
+    /* padding: 0 100px 0 100px; */
 }
 
 .open-text {
@@ -106,10 +113,25 @@ a:hover {
 
 .second-section {
     background-color: #E2E6E9;
+    /* width: 100%; */
     margin-top: 30px;
     display: flex;
     max-width: 100%;
-    padding-left: 20px;
+    padding: 100px;
+}
+
+.service-1 {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.service-2 {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.service-3 {
+    display: flex;
 }
 
 .service-1 img {
@@ -152,12 +174,14 @@ input {
     margin-top: 10px;
     gap: 20px;
     font-weight: 600;
+    padding-left: 45px;
 }
 
 
 .third-section {
     display: flex;
     max-width: 100%;
+    padding: 100px;
 }
 
 .third-section-1 {
